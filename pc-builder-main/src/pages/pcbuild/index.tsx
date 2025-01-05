@@ -301,7 +301,7 @@ const PcBuild = () => {
         }
 
         // Calculate the total price of selected components
-        const totalPrice = pcData.reduce((acc, pd) => acc + pd.price, 0);
+        const totalPrice = pcData.reduce((acc, pd) => acc + (pd.price || 0), 0);
 
         // Define a maximum possible price (this can be based on your own criteria)
         const maxPrice = 3000; // You can adjust this max price based on your project
@@ -317,7 +317,7 @@ const PcBuild = () => {
     };
 
     const countCost = () => {
-        return pcData?.reduce((acc, pd) => acc + pd.price, 0);
+        return pcData?.reduce((acc, pd) => acc + (pd.price || 0), 0);
     };
 
     useEffect(() => {
@@ -368,8 +368,8 @@ const PcBuild = () => {
             <List
                 size="large"
                 header={<div>Add Required Components</div>}
-                footer={<div style={{ textAlign: 'end', fontWeight: 'bold' }}>Total Cost: {countCost() ?? 0} $
-                    <Button color="green" type="primary" size="large" disabled={(pcData === null || pcData?.length <= 6)} style={{ marginLeft: '20px', }} onClick={() => { countDown(); }}>Complete Build</Button>
+                footer={<div style={{ textAlign: 'end', fontWeight: 'bold' }}>Total Cost: {countCost() ?? 0} $ 
+                    <Button color="green" type="primary" size="large" disabled={!(pcData && pcData.length > 6)} style={{ marginLeft: '20px' }} onClick={() => { countDown(); }}>Complete Build</Button>
                 </div>}
                 bordered
                 dataSource={data} // Now this is correctly defined
@@ -389,16 +389,14 @@ const PcBuild = () => {
                                     {findComponent(item.title)?.name}
                                     {isMobileScreen && findComponent(item.title) && <div>
                                         <Divider></Divider>
-                                        Price: {findComponent(item.title)?.price} $
-                                        <br />
+                                        Price: {findComponent(item.title)?.price} $<br />
                                         Ratings: {findComponent(item.title)?.average_rating} ⭐
                                     </div>}
                                 </>}
                             />
                             {!isMobileScreen && findComponent(item.title) && <div>
                                 <Divider></Divider>
-                                Price: {findComponent(item.title)?.price} $
-                                <br />
+                                Price: {findComponent(item.title)?.price} $<br />
                                 Ratings: {findComponent(item.title)?.average_rating} ⭐
                             </div>}
                         </Skeleton>
@@ -407,7 +405,7 @@ const PcBuild = () => {
             />
 
             {/* Display Selected Components as a Rough Diagram */}
-            {pcData?.length > 0 && (
+            {pcData && pcData.length > 0 && (
                 <div style={{ marginTop: '20px' }}>
                     <h2 style={{ textAlign: 'center' }}>Your PC Build</h2>
                     <Row gutter={[16, 16]} style={{ display: 'flex', justifyContent: 'center' }}>
@@ -444,12 +442,11 @@ const PcBuild = () => {
                 </a>
                 <h4>Need recommendations?</h4>
                 <a href="https://airecsystem-rl2bfrzidbpdpdzqnrjb58.streamlit.app/" target="_blank" style={{ fontSize: '18px', color: '#1890ff', textDecoration: 'underline' }}>
-                Check out the AI-based recommendation system
-                </a> 
+                    Check out the AI-based recommendation system
+                </a>
             </div>
         </div>
     );
 };
 
 export default PcBuild;
-
