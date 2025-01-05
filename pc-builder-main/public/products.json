@@ -1,0 +1,720 @@
+[
+  {
+    "name": "AMD Ryzen 9 5950X",
+    "image": "https://cdn.pixabay.com/photo/2012/04/12/19/23/cpu-30273_960_720.png",
+    "category": "CPU",
+    "price": 749,
+    "status": "In Stock",
+    "average_rating": 4.8,
+    "description": "The AMD Ryzen 9 5950X is a high-performance processor for enthusiasts and gamers.",
+    "features": ["16 cores", "32 threads", "4.9 GHz max boost", "AM4 socket"],
+    "reviews": [
+      {
+        "message": "Fast and powerful CPU.",
+        "rating": 5
+      },
+      {
+        "message": "Great for gaming and multitasking.",
+        "rating": 4
+      }
+    ],
+    "color": "#FF6F00"
+  },
+  {
+    "name": "Intel Core i9-11900K",
+    "image": "https://cdn.pixabay.com/photo/2021/07/10/23/56/processor-6402603_960_720.png",
+    "category": "CPU",
+    "price": 539,
+    "status": "In Stock",
+    "average_rating": 4.6,
+    "description": "The Intel Core i9-11900K delivers excellent performance for gaming and content creation.",
+    "features": [
+      "8 cores",
+      "16 threads",
+      "5.3 GHz max turbo frequency",
+      "LGA 1200 socket"
+    ],
+    "reviews": [
+      {
+        "message": "Impressive single-core performance.",
+        "rating": 5
+      },
+      {
+        "message": "Runs cool under heavy loads.",
+        "rating": 4
+      }
+    ],
+    "color": "#FF6F00"
+  },
+  {
+    "name": "Intel Core i7-11700K",
+    "image": "https://cdn.pixabay.com/photo/2016/10/04/16/37/processor-1714820_960_720.png",
+    "category": "CPU",
+    "price": 399,
+    "status": "In Stock",
+    "average_rating": 4.7,
+    "description": "The Intel Core i7-11700K offers exceptional gaming and multitasking performance.",
+    "features": [
+      "8 cores",
+      "16 threads",
+      "5.0 GHz max turbo frequency",
+      "LGA 1200 socket"
+    ],
+    "reviews": [
+      {
+        "message": "Great CPU for gaming and content creation.",
+        "rating": 5
+      },
+      {
+        "message": "Easy to overclock for extra performance.",
+        "rating": 4
+      }
+    ],
+    "color": "#FF6F00"
+  },
+  {
+    "name": "AMD Ryzen 5 5600X",
+    "image": "https://cdn.pixabay.com/photo/2016/10/27/03/44/processor-1773308_960_720.png",
+    "category": "CPU",
+    "price": 299,
+    "status": "In Stock",
+    "average_rating": 4.5,
+    "description": "The AMD Ryzen 5 5600X is a powerful CPU that offers excellent value for performance.",
+    "features": ["6 cores", "12 threads", "4.6 GHz max boost", "AM4 socket"],
+    "reviews": [
+      {
+        "message": "Great mid-range CPU for gaming and productivity.",
+        "rating": 5
+      },
+      {
+        "message": "Efficient and runs cool under load.",
+        "rating": 4
+      }
+    ],
+    "color": "#FF6F00"
+  },
+  {
+    "name": "MSI MAG B550 TOMAHAWK",
+    "image": "https://cdn.pixabay.com/photo/2013/07/12/17/49/motherboard-152501_960_720.png",
+    "category": "Motherboard",
+    "price": 189,
+    "status": "In Stock",
+    "average_rating": 4.6,
+    "description": "The MSI MAG B550 TOMAHAWK offers solid performance and features for gaming enthusiasts.",
+    "features": [
+      "ATX form factor",
+      "AM4 socket",
+      "PCIe 4.0 support",
+      "Dual M.2 slots",
+      "USB 3.2 Gen 2"
+    ],
+    "reviews": [
+      {
+        "message": "Reliable motherboard with great VRM cooling.",
+        "rating": 5
+      },
+      {
+        "message": "Easy BIOS update and customization.",
+        "rating": 4
+      }
+    ],
+    "color": "#F50057"
+  },
+  {
+    "name": "ASRock B450 Steel Legend",
+    "image": "https://img.freepik.com/premium-photo/processor-computer-circuit-board-with-microchips-generative-ai_788189-81.jpg",
+    "category": "Motherboard",
+    "price": 129,
+    "status": "In Stock",
+    "average_rating": 4.4,
+    "description": "The ASRock B450 Steel Legend offers a budget-friendly option with solid build quality.",
+    "features": [
+      "ATX form factor",
+      "AM4 socket",
+      "Dual M.2 slots",
+      "USB 3.1 Gen2"
+    ],
+    "reviews": [
+      {
+        "message": "Great value motherboard for Ryzen processors.",
+        "rating": 5
+      },
+      {
+        "message": "Good overclocking capabilities.",
+        "rating": 4
+      }
+    ],
+    "color": "#F50057"
+  },
+  {
+    "name": "ASUS ROG Strix X570-E Gaming",
+    "image": "https://img.freepik.com/free-photo/closeup-electronic-circuit-board-with-cpu-microchip-electronic-components-background_1387-820.jpg?w=1380&t=st=1690583989~exp=1690584589~hmac=e18c6028839d0b1afe9dde320920ac66c3be2d7c1a460987223d8bbb39215ca8",
+    "category": "Motherboard",
+    "price": 319,
+    "status": "In Stock",
+    "average_rating": 4.7,
+    "description": "The ASUS ROG Strix X570-E Gaming offers robust features for gaming enthusiasts.",
+    "features": [
+      "ATX form factor",
+      "AM4 socket",
+      "PCIe 4.0 support",
+      "WiFi 6",
+      "Dual M.2 slots"
+    ],
+    "reviews": [
+      {
+        "message": "High-quality motherboard with excellent performance.",
+        "rating": 5
+      },
+      {
+        "message": "Easy BIOS setup and overclocking options.",
+        "rating": 4
+      }
+    ],
+    "color": "#F50057"
+  },
+  {
+    "name": "GIGABYTE B550 AORUS PRO",
+    "image": "https://img.freepik.com/free-photo/smart-microchip-background-motherboard-closeup-technology_53876-124725.jpg?w=1380&t=st=1690584037~exp=1690584637~hmac=80890ae57a23535a292a7f020f7c6820a7cd45df841025974717ecbfd459675e",
+    "category": "Motherboard",
+    "price": 189,
+    "status": "In Stock",
+    "average_rating": 4.4,
+    "description": "The GIGABYTE B550 AORUS PRO offers a balance of features and performance for gamers.",
+    "features": [
+      "ATX form factor",
+      "AM4 socket",
+      "PCIe 4.0 support",
+      "Dual NVMe PCIe 4.0 M.2 slots"
+    ],
+    "reviews": [
+      {
+        "message": "Great value for a B550 motherboard.",
+        "rating": 5
+      },
+      {
+        "message": "Solid build quality and easy installation.",
+        "rating": 4
+      }
+    ],
+    "color": "#F50057"
+  },
+  {
+    "name": "Crucial Ballistix 32GB",
+    "image": "https://img.freepik.com/free-photo/technology-background-texture_23-2148105477.jpg?w=826&t=st=1690584062~exp=1690584662~hmac=a385f64715849b9806763225f339a79c910de09f88f64585f5c007f75cc87178",
+    "category": "RAM",
+    "price": 149,
+    "status": "In Stock",
+    "average_rating": 4.6,
+    "description": "The Crucial Ballistix 32GB offers excellent performance and reliability for demanding tasks.",
+    "features": [
+      "32GB (2 x 16GB) DDR4 3600",
+      "CAS latency 16",
+      "XMP 2.0 support"
+    ],
+    "reviews": [
+      {
+        "message": "Solid RAM kit for gaming and content creation.",
+        "rating": 5
+      },
+      {
+        "message": "Stable performance with no compatibility issues.",
+        "rating": 4
+      }
+    ],
+    "color": "#1976D2"
+  },
+  {
+    "name": "Corsair Vengeance LPX",
+    "image": "https://img.freepik.com/free-vector/facebook-circuit-cover_23-2147654831.jpg?w=826&t=st=1690584138~exp=1690584738~hmac=a90b2c4de987fdfdfe54a91410ca6d72224df4ed22dae2afdd4d35cea44c7723",
+    "category": "RAM",
+    "price": 129,
+    "status": "In Stock",
+    "average_rating": 4.5,
+    "description": "The Corsair Vengeance LPX is a reliable choice for high-performance computing.",
+    "features": [
+      "32GB (2 x 16GB) DDR4 3200",
+      "CAS latency 16",
+      "XMP 2.0 support"
+    ],
+    "reviews": [
+      {
+        "message": "Affordable RAM kit with excellent performance.",
+        "rating": 5
+      },
+      {
+        "message": "Works perfectly with XMP enabled.",
+        "rating": 4
+      }
+    ],
+    "color": "#1976D2"
+  },
+  {
+    "name": "Corsair Vengeance RGB Pro",
+    "image": "https://img.freepik.com/premium-vector/computer-memory-ram-computer-hardware-components_268834-1095.jpg",
+    "category": "RAM",
+    "price": 169,
+    "status": "In Stock",
+    "average_rating": 4.9,
+    "description": "The Corsair Vengeance RGB Pro delivers impressive performance with stylish RGB lighting.",
+    "features": [
+      "32GB (2 x 16GB) DDR4 3200",
+      "CAS latency 16",
+      "XMP 2.0 support",
+      "RGB lighting"
+    ],
+    "reviews": [
+      {
+        "message": "Excellent RAM with beautiful RGB effects.",
+        "rating": 5
+      },
+      {
+        "message": "Works flawlessly with XMP enabled.",
+        "rating": 5
+      }
+    ],
+    "color": "#1976D2"
+  },
+  {
+    "name": "G.SKILL Trident Z Neo",
+    "image": "https://img.freepik.com/premium-vector/real-random-access-memory-ram-computer_37787-862.jpg",
+    "category": "RAM",
+    "price": 189,
+    "status": "In Stock",
+    "average_rating": 4.7,
+    "description": "The G.SKILL Trident Z Neo is optimized for Ryzen processors and offers high-speed performance.",
+    "features": [
+      "32GB (2 x 16GB) DDR4 3600",
+      "CAS latency 16",
+      "XMP 2.0 support",
+      "Sleek heatspreader design"
+    ],
+    "reviews": [
+      {
+        "message": "Fast and reliable RAM for gaming and multitasking.",
+        "rating": 5
+      },
+      {
+        "message": "RGB lighting looks stunning.",
+        "rating": 4
+      }
+    ],
+    "color": "#1976D2"
+  },
+  {
+    "name": "NVIDIA GeForce RTX 3060 Ti",
+    "image": "https://img.freepik.com/premium-photo/computer-with-square-that-says-dell-bottom_662214-24672.jpg?w=826",
+    "category": "GPU",
+    "price": 499,
+    "status": "In Stock",
+    "average_rating": 4.7,
+    "description": "The NVIDIA GeForce RTX 3060 Ti offers great performance for 1440p gaming and ray tracing.",
+    "features": [
+      "8GB GDDR6",
+      "CUDA cores: 4864",
+      "PCI Express 4.0",
+      "Real-time ray tracing"
+    ],
+    "reviews": [
+      {
+        "message": "Highly recommended GPU for price-to-performance ratio.",
+        "rating": 5
+      },
+      {
+        "message": "Handles ray tracing effects surprisingly well.",
+        "rating": 4
+      }
+    ],
+    "color": "#00E676"
+  },
+  {
+    "name": "AMD Radeon RX 6700 XT",
+    "image": "https://img.freepik.com/free-photo/circuit-cyberspace-closeup-with-neon-lights_90220-1200.jpg?t=st=1690584289~exp=1690587889~hmac=6525357e2f04b5dd7f4826f05d263760a09e8a8cf9e1505507262b436b174fb1&w=1380",
+    "category": "GPU",
+    "price": 579,
+    "status": "In Stock",
+    "average_rating": 4.6,
+    "description": "The AMD Radeon RX 6700 XT delivers excellent performance for smooth 1440p gaming.",
+    "features": [
+      "12GB GDDR6",
+      "Compute units: 40",
+      "PCI Express 4.0",
+      "AMD Infinity Cache"
+    ],
+    "reviews": [
+      {
+        "message": "Impressive GPU for gaming and productivity.",
+        "rating": 5
+      },
+      {
+        "message": "Solid driver support and great software features.",
+        "rating": 4
+      }
+    ],
+    "color": "#00E676"
+  },
+  {
+    "name": "NVIDIA GeForce RTX 3080",
+    "image": "https://img.freepik.com/premium-vector/new-gpu-stock-announcement-label-flat-style-computer-video-graphic-card-device-advertising-illustration-hardware-component-shortage-notice-label-isolated_167715-4572.jpg?w=826",
+    "category": "GPU",
+    "price": 1099,
+    "status": "Out of Stock",
+    "average_rating": 4.8,
+    "description": "The NVIDIA GeForce RTX 3080 offers exceptional gaming performance and ray tracing capabilities.",
+    "features": [
+      "10GB GDDR6X",
+      "CUDA cores: 8704",
+      "PCI Express 4.0",
+      "Real-time ray tracing"
+    ],
+    "reviews": [
+      {
+        "message": "Powerful GPU for 4K gaming and content creation.",
+        "rating": 5
+      },
+      {
+        "message": "Ray tracing effects are mind-blowing.",
+        "rating": 4
+      }
+    ],
+    "color": "#00E676"
+  },
+  {
+    "name": "AMD Radeon RX 6800 XT",
+    "image": "https://img.freepik.com/free-photo/glowing-blue-flame-heats-semiconductor-equipment-indoors-generated-by-ai_188544-16554.jpg?t=st=1690584334~exp=1690587934~hmac=4082c1da4c456b3a9eef116c26d541f25f5d468a7e630ee7f3a505d658b955cb&w=1480",
+    "category": "GPU",
+    "price": 799,
+    "status": "In Stock",
+    "average_rating": 4.6,
+    "description": "The AMD Radeon RX 6800 XT delivers impressive performance for demanding tasks and high-resolution gaming.",
+    "features": [
+      "16GB GDDR6",
+      "Compute units: 72",
+      "PCI Express 4.0",
+      "AMD Infinity Cache"
+    ],
+    "reviews": [
+      {
+        "message": "Fantastic GPU for 1440p and 4K gaming.",
+        "rating": 5
+      },
+      {
+        "message": "Great value for the performance it offers.",
+        "rating": 4
+      }
+    ],
+    "color": "#00E676"
+  },
+  {
+    "name": "Seasonic FOCUS GX-750",
+    "image": "https://img.freepik.com/premium-photo/white-background-server-detail-photo_410516-39471.jpg?w=1380",
+    "category": "Power Supply Unit",
+    "price": 139,
+    "status": "In Stock",
+    "average_rating": 4.7,
+    "description": "The Seasonic FOCUS GX-750 offers efficient and stable power delivery for high-end builds.",
+    "features": [
+      "750W",
+      "80 PLUS Gold certified",
+      "Fully modular design",
+      "Hybrid Silent Fan Control"
+    ],
+    "reviews": [
+      {
+        "message": "Premium PSU with minimal noise and good power efficiency.",
+        "rating": 5
+      },
+      {
+        "message": "Handles overclocking and high loads with ease.",
+        "rating": 4
+      }
+    ],
+    "color": "#304FFE"
+  },
+  {
+    "name": "be quiet! Straight Power 11",
+    "image": "https://img.freepik.com/free-photo/futuristic-technology-illuminates-robotic-arm-laboratory-generated-by-ai_188544-29912.jpg?t=st=1690584476~exp=1690588076~hmac=019f3ec8793812db342f9284dbd78646e319629190814052f237bf939054cb30&w=1480",
+    "category": "Power Supply Unit",
+    "price": 159,
+    "status": "In Stock",
+    "average_rating": 4.5,
+    "description": "The be quiet! Straight Power 11 offers silent and reliable power for demanding systems.",
+    "features": [
+      "850W",
+      "80 PLUS Gold certified",
+      "Semi-modular design",
+      "Silent Wings 3 fan"
+    ],
+    "reviews": [
+      {
+        "message": "Super quiet PSU with great build quality.",
+        "rating": 5
+      },
+      {
+        "message": "Efficient and stable even under heavy load.",
+        "rating": 4
+      }
+    ],
+    "color": "#304FFE"
+  },
+  {
+    "name": "EVGA SuperNOVA 850 G5",
+    "image": "https://img.freepik.com/premium-photo/bitcoin-mining-rig-with-processors-graphics-cards-visible_124507-114871.jpg?w=1380",
+    "category": "Power Supply Unit",
+    "price": 159,
+    "status": "Out of Stock",
+    "average_rating": 4.7,
+    "description": "The EVGA SuperNOVA 850 G5 offers reliable and efficient power delivery for high-end systems.",
+    "features": [
+      "850W",
+      "80 PLUS Gold certified",
+      "Fully modular design",
+      "Silent operation"
+    ],
+    "reviews": [
+      {
+        "message": "Top-tier PSU with stable power output.",
+        "rating": 5
+      },
+      {
+        "message": "Modular design makes cable management a breeze.",
+        "rating": 4
+      }
+    ],
+    "color": "#304FFE"
+  },
+  {
+    "name": "Corsair RM750x",
+    "image": "https://img.freepik.com/premium-photo/gaming-computer-with-rgb-led-lighting-that-is-put-together-with-hardware_410516-27154.jpg?w=1380",
+    "category": "Power Supply Unit",
+    "price": 129,
+    "status": "In Stock",
+    "average_rating": 4.5,
+    "description": "The Corsair RM750x provides reliable power with excellent efficiency and low noise levels.",
+    "features": [
+      "750W",
+      "80 PLUS Gold certified",
+      "Fully modular design",
+      "Zero RPM fan mode"
+    ],
+    "reviews": [
+      {
+        "message": "Quiet PSU with plenty of power for gaming.",
+        "rating": 5
+      },
+      {
+        "message": "Efficient and stable even under heavy load.",
+        "rating": 4
+      }
+    ],
+    "color": "#304FFE"
+  },
+  {
+    "name": "Crucial MX500",
+    "image": "https://img.freepik.com/premium-photo/hard-drive-with-black-background-orange-lighting_850197-2447.jpg?w=1480",
+    "category": "Storage Device",
+    "price": 99,
+    "status": "In Stock",
+    "average_rating": 4.8,
+    "description": "The Crucial MX500 offers reliable and fast SSD performance at an affordable price.",
+    "features": [
+      "500GB capacity",
+      "SATA 6Gb/s interface",
+      "Read speed up to 560 MB/s",
+      "Write speed up to 510 MB/s"
+    ],
+    "reviews": [
+      {
+        "message": "Great value SSD for improving system speed.",
+        "rating": 5
+      },
+      {
+        "message": "Easy installation and cloning with Crucial software.",
+        "rating": 4
+      }
+    ],
+    "color": "#1565C0"
+  },
+  {
+    "name": "Seagate BarraCuda",
+    "image": "https://img.freepik.com/free-photo/futuristic-human-holding-complex-computer-chip-capacitor-generated-by-ai_188544-26120.jpg?t=st=1690584670~exp=1690588270~hmac=8870cda7042357da16277fe70c67d5f569efb64a99cd416b41e24ab92d6f4cda&w=1480",
+    "category": "Storage Device",
+    "price": 59,
+    "status": "In Stock",
+    "average_rating": 4.6,
+    "description": "The Seagate BarraCuda is a reliable and cost-effective hard drive for mass storage.",
+    "features": [
+      "1TB capacity",
+      "SATA 6Gb/s interface",
+      "7200 RPM",
+      "64MB cache"
+    ],
+    "reviews": [
+      {
+        "message": "Affordable and spacious hard drive for backups.",
+        "rating": 5
+      },
+      {
+        "message": "Runs quietly and cool under load.",
+        "rating": 4
+      }
+    ],
+    "color": "#1565C0"
+  },
+  {
+    "name": "Samsung 970 EVO Plus",
+    "image": "https://img.freepik.com/premium-photo/random-access-memory-ram_310178-710.jpg?w=1380",
+    "category": "Storage Device",
+    "price": 179,
+    "status": "In Stock",
+    "average_rating": 4.9,
+    "description": "The Samsung 970 EVO Plus offers lightning-fast NVMe SSD performance for speedy data access.",
+    "features": [
+      "1TB capacity",
+      "NVMe M.2 form factor",
+      "Read speed up to 3,500 MB/s",
+      "Write speed up to 3,300 MB/s"
+    ],
+    "reviews": [
+      {
+        "message": "Blazing fast SSD with excellent read/write speeds.",
+        "rating": 5
+      },
+      {
+        "message": "Perfect for gaming and video editing.",
+        "rating": 5
+      }
+    ],
+    "color": "#1565C0"
+  },
+  {
+    "name": "Western Digital Blue",
+    "image": "https://img.freepik.com/free-photo/view-hard-drive-with-blue-light_23-2149413380.jpg?w=740&t=st=1690584783~exp=1690585383~hmac=92fbb120477877b53ead61730791333278b4090e170fc9b3ff5e1516d56c161f",
+    "category": "Storage Device",
+    "price": 79,
+    "status": "In Stock",
+    "average_rating": 4.6,
+    "description": "The Western Digital Blue provides ample storage capacity with reliable performance.",
+    "features": [
+      "2TB capacity",
+      "SATA 6Gb/s interface",
+      "5400 RPM",
+      "64MB cache"
+    ],
+    "reviews": [
+      {
+        "message": "Affordable and reliable hard drive for mass storage.",
+        "rating": 5
+      },
+      {
+        "message": "Plenty of space for media and games.",
+        "rating": 4
+      }
+    ],
+    "color": "#1565C0"
+  },
+  {
+    "name": "Dell S2721DGF",
+    "image": "https://cdn.pixabay.com/photo/2012/04/13/15/03/monitor-32743_960_720.png",
+    "category": "Monitor",
+    "price": 449,
+    "status": "In Stock",
+    "average_rating": 4.7,
+    "description": "The Dell S2721DGF is a feature-packed gaming monitor with a high refresh rate and QHD resolution.",
+    "features": [
+      "27-inch IPS display",
+      "2560x1440 resolution",
+      "165Hz refresh rate",
+      "NVIDIA G-Sync compatible"
+    ],
+    "reviews": [
+      {
+        "message": "Excellent gaming monitor with vibrant colors.",
+        "rating": 5
+      },
+      {
+        "message": "Fast response times and minimal ghosting.",
+        "rating": 4
+      }
+    ],
+    "color": "#8E24AA"
+  },
+  {
+    "name": "AOC CQ32G1",
+    "image": "https://img.freepik.com/free-photo/abstract-computer-screen-with-marble-screensaver_53876-145542.jpg?w=1380&t=st=1690584816~exp=1690585416~hmac=48f92d3e71482680c1c2f8d7b2d63f57f546cc68e1e7ac64ee05982f7867d38c",
+    "category": "Monitor",
+    "price": 299,
+    "status": "In Stock",
+    "average_rating": 4.5,
+    "description": "The AOC CQ32G1 is a budget-friendly curved gaming monitor with a large screen and FreeSync support.",
+    "features": [
+      "31.5-inch VA display",
+      "2560x1440 resolution",
+      "144Hz refresh rate",
+      "AMD FreeSync"
+    ],
+    "reviews": [
+      {
+        "message": "Impressive value for a 32-inch curved gaming monitor.",
+        "rating": 5
+      },
+      {
+        "message": "Nice colors and deep blacks for VA panel.",
+        "rating": 4
+      }
+    ],
+    "color": "#8E24AA"
+  },
+  {
+    "name": "LG 27GL850-B",
+    "image": "https://img.freepik.com/free-photo/party-space-ready-online-celebration_23-2149347222.jpg?w=1380&t=st=1690584841~exp=1690585441~hmac=25d030b24d5afc32040b9af84902570384abe15a5e9a1d516d6d7e0c11c407c6",
+    "category": "Monitor",
+    "price": 449,
+    "status": "In Stock",
+    "average_rating": 4.8,
+    "description": "The LG 27GL850-B is a high-quality gaming monitor with a fast refresh rate and low input lag.",
+    "features": [
+      "27-inch IPS display",
+      "2560x1440 resolution",
+      "Nano IPS panel",
+      "144Hz refresh rate"
+    ],
+    "reviews": [
+      {
+        "message": "Beautiful colors and smooth gaming experience.",
+        "rating": 5
+      },
+      {
+        "message": "Great monitor for competitive gaming.",
+        "rating": 4
+      }
+    ],
+    "color": "#8E24AA"
+  },
+  {
+    "name": "ASUS TUF Gaming VG27AQ",
+    "image": "https://img.freepik.com/free-photo/manager-looking-mock-up-green-screen-chroma-key-computer-with-isolated-display-typing-marketing-strategy-planning-business-project-startup-office-businesswoman-working-company-presentation_482257-28290.jpg?w=1480&t=st=1690584861~exp=1690585461~hmac=41b4ecdae786e85cd3089b4aa0447018c2b2c9d0bafc011dcd1f2a419bdaeadb",
+    "category": "Monitor",
+    "price": 399,
+    "status": "In Stock",
+    "average_rating": 4.6,
+    "description": "The ASUS TUF Gaming VG27AQ offers an immersive gaming experience with impressive colors.",
+    "features": [
+      "27-inch IPS display",
+      "2560x1440 resolution",
+      "G-Sync compatible",
+      "165Hz refresh rate"
+    ],
+    "reviews": [
+      {
+        "message": "Smooth gaming with minimal motion blur.",
+        "rating": 5
+      },
+      {
+        "message": "Great value for a 1440p 165Hz monitor.",
+        "rating": 4
+      }
+    ],
+    "color": "#8E24AA"
+  }
+]
