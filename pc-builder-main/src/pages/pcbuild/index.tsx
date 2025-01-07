@@ -322,7 +322,7 @@ const PcBuild = () => {
 
     useEffect(() => {
         calculateCompatibility();
-    }, [pcData]); // Recalculate score whenever pcData changes
+    }, [pcData, calculateCompatibility]); // Recalculate score whenever pcData changes
 
     // Define the countDown function
     const countDown = () => {
