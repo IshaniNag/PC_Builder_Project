@@ -1,5 +1,6 @@
 interface IProduct {
   name: string;
+  title: string;
   image: string; // URL of the PNG image
   category:
     | "CPU"
