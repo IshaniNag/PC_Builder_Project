@@ -18,26 +18,26 @@ Responsive UI – Works across desktop, tablet, and mobile devices.
 
 Performance Optimization – Uses async requests for faster loading times.
 
-🛠️ Tech Stack
-Frontend:
+🛠️ Tech Stack <br/>
+Frontend:<br/>
 
-HTML, CSS, JavaScript
+HTML, CSS, JavaScript<br/>
 
-Responsive design principles
+Responsive design principles<br/>
 
-Backend:
+Backend:<br/>
 
-Node.js 
+Node.js <br/>
 
-Unofficial PCPartPicker API
+Unofficial PCPartPicker API <br/>
 
-Other Tools & Libraries:
+Other Tools & Libraries: <br/>
 
-Axios for HTTP requests
+Axios for HTTP requests <br/>
 
-Async/Await for non-blocking API calls
+Async/Await for non-blocking API calls <br/>
 
-📂 Project Structure
+📂 Project Structure <br/>
 PC-Builder/
 │
 ├── frontend/        # UI and client-side logic
@@ -46,22 +46,23 @@ PC-Builder/
 ├── README.md        # Project documentation
 └── package.json     # Dependencies and scripts
 
-⚙️ Installation & Setup
+⚙️ Installation & Setup <br/>
 
-Clone the repository
+Clone the repository <br/>
 
 git clone https://github.com/yourusername/pc-builder.git
 cd pc-builder
-Install dependencies
+
+Install dependencies <br/>
 
 npm install     # For Node.js backend
+
 Set up environment variables
 Create a .env file in the backend folder:
-
 ini
-API_BASE_URL=<Unofficial PCPartPicker API Base URL>
-PORT=3000
+API_BASE_URL=<Unofficial PCPartPicker API Base URL>PORT=3000
+
 Run the application
-Edit
 npm start
+
 The app should now be running at http://localhost:3000
