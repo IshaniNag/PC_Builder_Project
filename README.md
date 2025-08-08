@@ -1,9 +1,11 @@
 # PC_Builder_Project
 
 🖥️ PC Builder Web Application
+
 A full-stack web application that allows users to build their own custom PC by selecting components such as CPU, GPU, RAM, Storage, and more — similar to PCPartPicker. The app integrates an unofficial PCPartPicker API with asynchronous requests for efficient data retrieval.
 
 🚀 Features
+
 Component Selection – Choose from categories like CPU, GPU, Motherboard, RAM, Storage, PSU, and Case.
 
 Feature-Based Filtering – Filter components by specifications such as clock speed, memory, brand, power consumption, and more.
